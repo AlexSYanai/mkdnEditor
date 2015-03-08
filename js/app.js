@@ -4,3 +4,11 @@ App.Router.map(function(){
   this.route("reference");
   this.route("notes");
 });
+
+var showdown = new Showdown.converter();
+
+Ember.Handlebars.helper('format-markdown', function(input) {
+  if (input == undefined)
+    return "";
+    return new Handlebars.SafeString(showdown.makeHtml(input));
+  });
