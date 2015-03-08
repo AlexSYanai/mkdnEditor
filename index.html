@@ -10,7 +10,24 @@
   </head>
   <body>
 
-    
+    <script type="text/x-handlebars">
+      <div class="container">
+        <header class="header">
+          <h1 class="logo">
+            {{#link-to "index" class="homepageLinkClass"}}
+              Live Markdown Editor
+            {{/link-to}}
+          </h1>
+        </header>
+        <nav class="nav center">
+          {{#link-to "reference" class="btn btn-primary"}}Reference{{/link-to}}
+        </nav>
+        <main class="main">{{outlet}}</main>
+        <footer class="footer center">
+          <small>Free to copy or modify as you like - See Readme.md</small>
+        </footer>
+      </div>
+    </script>
 
     <script src="js/libs/jquery-1.10.2.js"></script>
     <script src="js/libs/handlebars-1.1.2.js"></script>
