@@ -154,3 +154,18 @@ a.btn:hover {
 .notePartial {
   width:50%;
 }
+
+.output {
+  position: absolute;
+  border:1px solid silver;
+  border-radius:5px;
+  width: 27.5%;
+  height: 61.75%;
+  padding:3px;
+  right:21.5%;
+  top:33.25%;
+  resize: none;
+  word-break: break-all;
+  float: right;
+  overflow:auto;
+}
