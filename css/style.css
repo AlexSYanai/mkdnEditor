@@ -169,3 +169,21 @@ a.btn:hover {
   float: right;
   overflow:auto;
 }
+
+/* Media Queries for Markdown Output */
+@media screen and (max-width: 1024px) {
+  .output {
+    position: absolute;
+    border:1px solid silver;
+    border-radius:5px;
+    width: 42.5%;
+    height: 64%;
+    padding:3px;
+    right:6.75%;
+    top:34.25%;
+    resize: none;
+    word-break: break-all;
+    float: right;
+    overflow:auto;
+  }
+}
