@@ -121,3 +121,17 @@ a.btn:hover {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+Reference Styles
+
+.referenceHeader {
+  text-align: center;
+  margin-bottom: 31px;
+  font-size: 18px;
+  color: #a93724;
+}
+
+.referenceImage {
+  margin: 0 10px 10px 0;
+  float: right;
+}
