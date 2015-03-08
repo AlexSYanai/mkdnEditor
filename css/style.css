@@ -54,3 +54,18 @@ h1, .h1, h2, .h2, h3, .h3 {
 .cf:after {
   clear: both;
 }
+
+.logo {
+  background: url('../images/logo.png') no-repeat;
+  margin: 0 auto;
+  width: 285px;
+  height: 155px;
+  display: block;
+  text-indent: -9999px;
+}
+
+.homepageLinks {
+  width: 196px;
+  height: 140px;
+  display: block;
+}
