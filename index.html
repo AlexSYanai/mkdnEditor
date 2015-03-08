@@ -29,6 +29,21 @@
       </div>
     </script>
 
+    <script type="text/x-handlebars" data-template-name="index">
+      <section id="home" class="page clearfix">
+        <h2 class="homepageHeader">Welcome to MkdnEditor</h2>
+        <div class="homepageDiv homepageText">MkdnEditor is a live, browser-based markdown editor. MkdnEditor is built with Ember.js and uses Bootstrap for styling and Showdown for plain-text to Markdown conversion.
+          <br>
+          {{#link-to "reference"}}<strong>learn markdown &raquo;</strong>{{/link-to}}
+          <br>
+          Alex Yanai is a NYC based web developer and designer.
+          <br>
+          <a href="http://www.alexyanai.com"><strong>learn more &raquo;</strong></a>
+          <br>
+        </div>
+      </section>
+    </script>
+
     <script src="js/libs/jquery-1.10.2.js"></script>
     <script src="js/libs/handlebars-1.1.2.js"></script>
     <script src="js/libs/ember.min.js"></script>
