@@ -44,3 +44,13 @@ h1, .h1, h2, .h2, h3, .h3 {
 .center {
   text-align: center;
 }
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
