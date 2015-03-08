@@ -221,3 +221,20 @@ a.btn:hover {
     overflow:auto;
   }
 }
+
+@media screen and (max-width: 935px) {
+  .output {
+    position: absolute;
+    border:1px solid silver;
+    border-radius:5px;
+    width: 40%;
+    height: 71.5%;
+    padding:3px;
+    right:9%;
+    top:38%;
+    resize: none;
+    word-break: break-all;
+    float: right;
+    overflow:auto;
+  }
+}
