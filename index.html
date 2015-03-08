@@ -81,6 +81,15 @@
       </section>
     </script>
 
+    <script type="text/x-handlebars" id="markdownEditor">
+      <div class="notePartial" >
+        {{partial 'notes'}}
+      </div>
+      <div class="output">
+        {{format-markdown input}}
+      </div>
+    </script>
+
     <script type="text/x-handlebars" id="notes">
       {{textarea name="input" value=input placeholder="Enter your markdown here. It will automatically be translated."}}
     </script>
