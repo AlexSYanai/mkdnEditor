@@ -187,3 +187,37 @@ a.btn:hover {
     overflow:auto;
   }
 }
+
+@media screen and (max-width: 1386px) {
+  .output {
+    position: absolute;
+    border:1px solid silver;
+    border-radius:5px;
+    width: 31%;
+    height: 65%;
+    padding:3px;
+    right:17.75%;
+    top:34%;
+    resize: none;
+    word-break: break-all;
+    float: right;
+    overflow:auto;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .output {
+    position: absolute;
+    border:1px solid silver;
+    border-radius:5px;
+    width: 39%;
+    height: 71.75%;
+    padding:3px;
+    right:10%;
+    top:38%;
+    resize: none;
+    word-break: break-all;
+    float: right;
+    overflow:auto;
+  }
+}
