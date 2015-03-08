@@ -12,3 +12,9 @@ Ember.Handlebars.helper('format-markdown', function(input) {
     return "";
     return new Handlebars.SafeString(showdown.makeHtml(input));
   });
+
+App.NotesRoute = Ember.Route.extend({
+  renderTemplate: function() {
+    this.render('markdownEditor');
+  }
+});
