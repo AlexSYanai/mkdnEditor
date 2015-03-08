@@ -21,6 +21,7 @@
         </header>
         <nav class="nav center">
           {{#link-to "reference" class="btn btn-primary"}}Reference{{/link-to}}
+          {{#link-to "notes" class="btn btn-primary"}}Editor{{/link-to}}
         </nav>
         <main class="main cf">{{outlet}}</main>
         <footer class="footer center cf">
@@ -78,6 +79,10 @@
       <strong>Images:</strong>
       ![Picture Text](http://www.alexyanai.com/some.jpg)
       </section>
+    </script>
+
+    <script type="text/x-handlebars" id="notes">
+      {{textarea name="input" value=input placeholder="Enter your markdown here. It will automatically be translated."}}
     </script>
 
     <script src="js/libs/jquery-1.10.2.js"></script>
