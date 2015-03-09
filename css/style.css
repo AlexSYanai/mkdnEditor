@@ -171,6 +171,23 @@ a.btn:hover {
 }
 
 /* Media Queries for Markdown Output */
+@media screen and (max-width: 1560px) {
+  .output {
+    position: absolute;
+    border:1px solid silver;
+    border-radius:5px;
+    width: 27.5%;
+    height: 62.5%;
+    padding:3px;
+    right:21.75%;
+    top:28.5%;
+    resize: none;
+    word-break: break-all;
+    float: right;
+    overflow:auto;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .output {
     position: absolute;
@@ -211,10 +228,10 @@ a.btn:hover {
     border:1px solid silver;
     border-radius:5px;
     width: 39%;
-    height: 71.75%;
+    height: 83%;
     padding:3px;
     right:10%;
-    top:38%;
+    top:38.25%;
     resize: none;
     word-break: break-all;
     float: right;
