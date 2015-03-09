@@ -52,8 +52,8 @@ h1, .h1, h2, .h2, h3, .h3 {
 .logo {
   background: url('../images/logo.png') no-repeat;
   margin: 0 auto;
-  width: 285px;
-  height: 155px;
+  width: 315px;
+  height: 120px;
   display: block;
   text-indent: -9999px;
 }
