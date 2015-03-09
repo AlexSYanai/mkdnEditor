@@ -173,85 +173,59 @@ a.btn:hover {
 /* Media Queries for Markdown Output */
 @media screen and (max-width: 1560px) {
   .output {
-    position: absolute;
-    border:1px solid silver;
-    border-radius:5px;
     width: 27.5%;
     height: 62.5%;
-    padding:3px;
     right:21.75%;
     top:28.5%;
-    resize: none;
-    word-break: break-all;
-    float: right;
-    overflow:auto;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .output {
-    position: absolute;
-    border:1px solid silver;
-    border-radius:5px;
     width: 42.5%;
     height: 64%;
-    padding:3px;
     right:6.75%;
     top:34.25%;
-    resize: none;
-    word-break: break-all;
-    float: right;
-    overflow:auto;
   }
 }
 
 @media screen and (max-width: 1386px) {
   .output {
-    position: absolute;
-    border:1px solid silver;
-    border-radius:5px;
     width: 31%;
     height: 65%;
-    padding:3px;
     right:17.75%;
     top:34%;
-    resize: none;
-    word-break: break-all;
-    float: right;
-    overflow:auto;
   }
 }
 
 @media screen and (max-width: 1110px) {
   .output {
-    position: absolute;
-    border:1px solid silver;
-    border-radius:5px;
     width: 39%;
-    height: 83%;
-    padding:3px;
+    height: 67.5%;
     right:10%;
-    top:38.25%;
-    resize: none;
-    word-break: break-all;
-    float: right;
-    overflow:auto;
+    top:31.25%;
   }
 }
 
 @media screen and (max-width: 935px) {
   .output {
-    position: absolute;
-    border:1px solid silver;
-    border-radius:5px;
     width: 40%;
     height: 71.5%;
-    padding:3px;
     right:9%;
     top:38%;
-    resize: none;
-    word-break: break-all;
-    float: right;
-    overflow:auto;
+  }
+}
+
+@media screen and (min-height: 675px) {
+  .output {
+    height: 73%;
+    top:34%;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .output {
+    top:28.5%;
+    height: 62.5%;
   }
 }
