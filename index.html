@@ -81,19 +81,15 @@
       </section>
     </script>
 
-    <script type="text/x-handlebars" id="markdownEditor">
+    <script type="text/x-handlebars" id="notes">
       <div class="page">
         <div class="notePartial" >
-          {{partial 'notes'}}
-        </div>
-        <div class="output">
-          {{format-markdown input}}
+            {{textarea id="input" value=input placeholder="Enter your markdown here. It will automatically be translated."}}
+          <div class="output">
+            {{format-markdown input}}
+          </div>
         </div>
       </div>
-    </script>
-
-    <script type="text/x-handlebars" id="notes">
-      {{textarea name="input" value=input placeholder="Enter your markdown here. It will automatically be translated."}}
     </script>
 
     <script src="js/libs/jquery-1.10.2.js"></script>
