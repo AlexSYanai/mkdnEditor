@@ -44,6 +44,15 @@ App.NotesController = Ember.ArrayController.extend({
   }
 });
 
+App.NoteController = Ember.ObjectController.extend({
+  actions: {
+    deleteMarkdown: function() {
+      this.get("model").deleteRecord();
+      this.get("model").save();
+    }
+  }
+});
+
 App.ApplicationAdapter = DS.LSAdapter.extend({
   namespace: "markdownNotes"
 });
