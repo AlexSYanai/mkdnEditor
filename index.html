@@ -86,9 +86,9 @@
     <script type="text/x-handlebars" id="notes">
       <div class="page">
         <div class="notePartial" >
-            {{textarea id="input" value=input placeholder="Enter your markdown here. It will automatically be translated."}}
+        {{textarea id="markdownInput" value=markdownInput placeholder="Enter your markdown here. It will automatically be translated."}}
           <div class="output">
-            {{format-markdown input}}
+            {{format-markdown markdownInput}}
           </div>
         </div>
       </div>
