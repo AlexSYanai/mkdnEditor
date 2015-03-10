@@ -94,6 +94,15 @@
         <p class="saveButton">
           <button {{action "markdownInput"}} class="btn btn-info">Save</button>
         </p>
+        {{#each itemController="note"}}
+          <div class="singleEntry">
+            {{copy}}
+            <hr/>
+            <p class="saveButton">
+              <button {{action "deleteMarkdown"}} class="btn btn-info">Delete</button>
+            </p>
+          </div>
+        {{/each}}
       </div>
     </script>
 
