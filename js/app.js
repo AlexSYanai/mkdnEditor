@@ -13,6 +13,9 @@ Ember.Handlebars.helper('format-markdown', function(input) {
     return new Handlebars.SafeString(showdown.makeHtml(input));
   });
 
+
+// Save Code
+
 App.Note = DS.Model.extend({
   copy: DS.attr()
 });
@@ -39,4 +42,8 @@ App.NotesController = Ember.ArrayController.extend({
       note.save();
     }
   }
+});
+
+App.ApplicationAdapter = DS.LSAdapter.extend({
+  namespace: "markdownNotes"
 });
