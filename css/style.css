@@ -106,6 +106,20 @@ a.btn:hover {
   border-color:#a93724;
 }
 
+.saveButton {
+  margin: 10px 0;
+}
+
+.saveButton .btn {
+  background-color: #e24b31;
+  border: #e24b31;
+}
+
+.saveButton .btn:hover {
+  color: #e24b31;
+  background-color:#fff;
+}
+
 /* Home styles */
 
 .homepageHeader {
@@ -141,11 +155,12 @@ a.btn:hover {
 }
 
 /* Markdown Editor Styles */
+
 .active {
   font-weight: bold;
 }
 
-#input {
+#markdownInput {
   width: 49%;
 }
 
