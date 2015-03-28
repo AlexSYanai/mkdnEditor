@@ -184,8 +184,8 @@ a.btn:hover {
 
 .singleEntry {
   margin: 20px 0 35px;
-  border: 1px solid #808080;
-  background-color: #F0FFFF;
+  border: 1px solid #fff;
+  background-color: rgba(237, 57, 25, 0.1);
   padding: 10px;
   width: 615px;
 }
