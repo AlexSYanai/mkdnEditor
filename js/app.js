@@ -37,7 +37,6 @@ App.NotesController = Ember.ArrayController.extend({
       var note = this.store.createRecord("note", {
         copy: copy
       });
-
       this.set("markdownInput", "");
       note.save();
     }
@@ -46,6 +45,15 @@ App.NotesController = Ember.ArrayController.extend({
 
 App.NoteController = Ember.ObjectController.extend({
   actions: {
+    loadMarkdown: function() {
+      var aSinglePost = this.get("model")
+      this.store.find('note',aSinglePost.id).then(function(result){
+        c = result.get('copy')
+        $('#markdownInput').val(c)
+        result.destroyRecord()
+      });
+    },
+
     deleteMarkdown: function() {
       this.get("model").deleteRecord();
       this.get("model").save();
